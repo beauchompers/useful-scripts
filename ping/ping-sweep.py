@@ -6,7 +6,7 @@ import subprocess
 import argparse
 
 # args
-arg_parser = argparse.ArgumentParser(description='Python OSCP Ping Sweeper, ping sweeps a /24 network')
+arg_parser = argparse.ArgumentParser(description='Python Ping Sweeper, ping sweeps a /24 network')
 arg_parser.add_argument('--network', dest='network', help='The /24 network to sweep, example 10.11.1', type=str, default='10.11.1')
 args = arg_parser.parse_args()
 
